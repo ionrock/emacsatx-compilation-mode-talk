@@ -14,8 +14,6 @@
 
 * But I don't Compile!
 
-  Even if you don't compile your program, it is helpful!
-
   - running server processes
   - tailing logs
   - running tests
@@ -30,6 +28,42 @@
 
  - [[file:pytest-example/foo.py][A simple python file]]
  - [[file:pytest-example/test_foo.py][A simple test]]
+
+* Compile Buffer Keybindings
+
+  |-----------+------------------------------|
+  | key       | binding                      |
+  |-----------+------------------------------|
+  | TAB       | compilation-next-error       |
+  | SPC       | scroll-up-command            |
+  | <         | beginning-of-buffer          |
+  | >         | end-of-buffer                |
+  | ? / h     | describe-mode                |
+  | g         | recompile                    |
+  | q         | quit-window                  |
+  | DEL       | scroll-down-command          |
+  | <backtab> | compilation-previous-error   |
+  |           |                              |
+  | M-n       | compilation-next-error       |
+  | M-p       | compilation-previous-error   |
+  | M-{       | compilation-previous-file    |
+  | M-}       | compilation-next-file        |
+  |           |                              |
+  | C-c C-c   | compile-goto-error           |
+  | C-c C-f   | next-error-follow-minor-mode |
+  | C-c C-k   | kill-compilation             |
+  |           |                              |
+  |-----------+------------------------------|
+
+* Navigation from Another Buffer
+
+  |---------------------------+-----------------------|
+  | key                       | binding               |
+  |---------------------------+-----------------------|
+  | C-x ` or M-g M-n or M-g n | next-error            |
+  | C-u C-x `                 | start over next-error |
+  | M-g M-p or M-g p          | previous-error        |
+  |---------------------------+-----------------------|
 
 * Let's write something
 
