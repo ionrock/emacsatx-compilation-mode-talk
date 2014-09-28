@@ -22,7 +22,7 @@
 
 * Examples
 
- - grep-mode
+ - grep-mode(s)
  - projectile
  - pytest.el / rspec-mode
 
@@ -31,7 +31,10 @@
  - [[file:pytest-example/foo.py][A simple python file]]
  - [[file:pytest-example/test_foo.py][A simple test]]
 
-* Let's write a tool
+* Let's write something
 
-**
  - [[file:tailer.el][tailer.el]]
+* How it works
+
+  - compilation-error-regexp-alist
+  - [[file:example-compilation-regexp-alist-element.el][example]]
