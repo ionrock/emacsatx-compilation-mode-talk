@@ -10,6 +10,7 @@
 
   Special mode for running compilations in Emacs!
 
+  - M-x compile
   - streaming output
   - parse for links to files
   - jump between links
