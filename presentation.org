@@ -3,6 +3,8 @@
 
   Eric Larson
   eric@ionrock.org
+  http://ionrock.org
+  http://github.com/ionrock/
 
 * What is compile-mode?
 
@@ -70,7 +72,7 @@
 
  - [[file:emacsatx-server.el][(start-emacsatx-server)]]
  - [[file:emacsatx-hl.el][special highlighting]]
-* That's it!
 
-  - http://github.com/ionrock/
-  - [[file:example-compilation-regexp-alist-element.el][example]]
+* That's it! Questions?
+
+  - Github Repo: http://bit.ly/1uxTLVk
