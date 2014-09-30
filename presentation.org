@@ -10,7 +10,8 @@
 
   - streaming output
   - parse for links to files
-  - keybindings for jumping between links / re-running the compilation
+  - jump between links
+  - run and rerun commands
 
 * But I don't Compile!
 
@@ -18,7 +19,7 @@
   - tailing logs
   - running tests
 
-* Examples
+* Modes Using Compilation Mode
 
  - grep-mode(s)
  - projectile
@@ -67,8 +68,9 @@
 
 * Let's write something
 
- - [[file:tailer.el][tailer.el]]
-* How it works
+ - [[file:emacsatx-server.el][(start-emacsatx-server)]]
+ - [[file:emacsatx-hl.el][special highlighting]]
+* That's it!
 
-  - compilation-error-regexp-alist
+  - http://github.com/ionrock/
   - [[file:example-compilation-regexp-alist-element.el][example]]

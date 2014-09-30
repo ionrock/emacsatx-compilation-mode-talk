@@ -1,5 +1,5 @@
 def hello():
-    return 'Hello world!'
+    return 'Hello World!'
 
 
 def rhello(message='Hello World!'):
