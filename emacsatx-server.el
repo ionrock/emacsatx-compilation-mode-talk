@@ -5,10 +5,11 @@
   (interactive)
   (let ((python "server-example/venv/bin/python")
 	(filename "server-example/server.py"))
+    ;; Run our server
     (compilation-start
      ;; the command to run
      (format "%s %s" python filename)
      ;; The mode or t if we want to use a comint buffer
-     t
+     nil
      ;; a function to create a buffer name
      'emacsatx-server-buffername)))
